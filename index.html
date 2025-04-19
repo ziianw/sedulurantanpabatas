@@ -764,6 +764,13 @@ https://templatemo.com/tm-575-leadership-event
                     }
                 });
             </script>
+                    <script>
+                            AOS.init({
+                disable: function() {
+                    return window.innerWidth < 768; // Nonaktifkan AOS jika lebar layar < 768px
+                }
+            });
+            </script>
         <script src="js/custom.js"></script>
 
     </body>
